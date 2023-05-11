@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: skyblue;
+    
+}
+header{
+    text-align: center;
+    background-color: darkblue;
+    padding: 15px;
+}
+.titulo{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-color: darkblue;
+}
+.botones{
+    display: flex;
+    background-color: skyblue;
+    justify-content: center;
+}
+.btn{
+    margin: 5px;
+}
+.carta{
+    position: relative;
+    width: 150px;
+    left: 0 auto;
+    margin-left: -35px;
+}
+.cartas-jugador{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.cartas-computadora{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.titulo-cartas{
+    text-align: center;
+}
+#computadora-cartas, #jugador-cartas{
+    height: 220px;
+}
