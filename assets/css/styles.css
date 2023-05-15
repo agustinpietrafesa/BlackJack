@@ -30,12 +30,7 @@ header{
     left: 0 auto;
     margin-left: -35px;
 }
-.cartas-jugador{
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-}
-.cartas-computadora{
+.divCartas{
     display: flex;
     justify-content: center;
     padding-top: 15px;
